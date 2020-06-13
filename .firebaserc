@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-stripe-integration": {
+      "hosting": {
+        "AngularStripe": [
+          "angular-stripe-integration"
+        ]
+      }
+    }
+  }
+}

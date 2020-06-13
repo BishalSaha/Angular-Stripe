@@ -117,8 +117,16 @@
               "devServerTarget": "AngularStripe:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "AngularStripe"
+    }
+  },
+  "defaultProject": "AngularStripe",
+  "cli": {
+    "analytics": false
+  }
 }
